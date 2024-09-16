@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <style>
-        /* Apply 70-20-10 color scheme */
         :root {
-          
+            --dominant-color: #1a73e8; 
+            --secondary-color: #fbbc05; 
+            --accent-color: #34a853;    
+            --text-color: #333;        
         }
 
         body, html {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-color: var(--dominant-color); /* 70% of background */
+            background-color: var(--dominant-color); 
             color: var(--text-color);
             box-sizing: border-box;
         }
 
-        /* Navigation Bar */
+        
         nav {
-            background-color: var(--secondary-color); /* 20% - secondary */
+            background-color: var(--secondary-color); 
             padding: 10px 20px;
             display: flex;
             justify-content: space-between;
@@ -47,16 +49,15 @@
         }
 
         nav ul li a:hover {
-            color: var(--accent-color); /* 10% - accent */
+            color: var(--accent-color); 
         }
 
-        /* Landing Section */
         .landing {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 50px;
-            height: calc(100vh - 60px); /* Adjust height for the navbar */
+            height: calc(100vh - 60px); 
         }
 
         .landing-text {
@@ -82,14 +83,14 @@
         .landing-image img {
             width: 100%;
             max-width: 600px;
-            border: 5px solid var(--accent-color); /* Accent around the image */
+            border: 5px solid var(--accent-color);
             border-radius: 10px;
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
         }
 
-        /* Call to action button */
+        
         .cta-button {
-            background-color: var(--accent-color); /* Call to action color */
+            background-color: var(--accent-color); 
             color: #fff;
             padding: 12px 25px;
             border: none;
@@ -107,7 +108,6 @@
 </head>
 <body>
 
-    <!-- Navigation Bar -->
     <nav>
         <div class="logo">
             <h2 style="color:white;">YourLogo</h2>
@@ -120,7 +120,6 @@
         </ul>
     </nav>
 
-    <!-- Landing Section -->
     <section class="landing">
         <div class="landing-text">
             <h1>Welcome to Our Website</h1>
