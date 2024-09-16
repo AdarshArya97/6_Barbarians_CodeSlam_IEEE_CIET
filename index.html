@@ -41,6 +41,7 @@ img+div{
     display: inline-flex;  
 }
 
+
 #w4{
     display: inline-flex;
     margin-left: 100px;
@@ -71,10 +72,181 @@ button:hover{
             color: white;
         }
 
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+.skills-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.skills-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f4d03f;
+    z-index: -1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(Layer\ 1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.text-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.text-section span {
+    color: #f4d03f;
+    font-weight: bold;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 22%;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-10px);
+}
+
+.icon img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.skill-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.justourawe {text-align: left;}
+#skills {
+            background-color: #3b3f46;
+            color: #f5b301;
+            text-align: left;
+        }
+
+        #awesome {
+            background-color: #f5b301;
+            color: #3b3f46;
+            text-align: left;
+        }
+
+        #justour {
+            background-color: #3b3f46;
+            color: #f5b301;
+            text-align: left;
+        }
+.icon{
+     border-radius:2px ;
+    background-color: #666;
+     align-items: center;
+}
 
 
 
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4c542;
+    background-image: url(Layer\ 4.png);
+}
+.hello{
+    color: white;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    }
+
+h1 {
+    font-size: 3em;
+    margin: 10px 0;
+    color: white;
+}
+
+p {
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    background-color: white;
+    color: #f4c542;
+   ;
+}
 
 
 
@@ -119,6 +291,91 @@ button:hover{
 
 
 </nav>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2</title>
+    <link rel="stylesheet" href="11.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section class="skills-section">
+        <div class="container">
+            <div class="text-section" id="justourawe">
+                <h2> <span id="justour">Just Our </span><br> <span id="awesome">Awesome</span><br><span id="skills">Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <div class="icon">
+                        <img src=".png" alt="Icon 1">
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="icon">
+                        <img src="C:\Users\sxmth\OneDrive\Documents\fun\.png" alt="Icon 2">
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="icon">
+                        <img src="C:\Users\sxmth\OneDrive\Documents\fun\.png" alt="Icon 3">
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="icon">
+                        <img src=".png" alt="Icon 4">
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Portfolio</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <div class="hello">
+        <h2>Here is our awesome portfolio</h2>
+    </div>
+    <div class="container">
+        <h1>Awesome Portfolio</h1>
+        <h1>~</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
+        </p>
+
+        <div class="portfolio">
+            <div class="item">
+                <img src="Layer 22 (1).pngf" alt="Saxophone">
+            </div>
+            <div class="item">
+                <img src="Layer 25.png" alt="Paintbrush">
+            </div>
+            <div class="item">
+                <img src="Layer 24.png" alt="laptop">
+                </div>
+                <div class="item">
+                    <img src="Layer 23.png" alt="Typewriter">
+                </div>
+            </div>
+        </div>
+        <center>
+
+        <button  class="btn">Click Here</button>
+    </center>
+    </div>    
 </body>
 </html>
